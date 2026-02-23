@@ -1,0 +1,24 @@
+.histry {
+    background-color: white;
+    min-height: 423px; 
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 40px 20px; 
+    margin: 0 1% 100px 1%; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* --- ADAPTATION MOBILE --- */
+@media (max-width: 768px) {
+    .histry {
+        min-height: auto; 
+        padding: 30px 15px;
+        margin-bottom: 50px; 
+    }
+}
